@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+
+h1{
+    font-family: inter;
+    font-size: 72px;
+    font-weight: 800;
+    background: linear-gradient(270deg, #b527cf, #3bd9d9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 50%;
+    left: 50%;
+}
+
+.container{
+    width: 400px;
+    height: 300px;
+    margin: 15px 500px;
+
+}
+
+body {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  }
+
+body {
+
+    background-image: url("descarga\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedor{
+    align-content: center;
+    width: 100vw;
+    height: 50vh;
+    text-align: center;
+    top: 500% 700px;
+}
+
+p{
+    font-size: xx-large;
+    padding: 15%;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+    margin: 100px;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
